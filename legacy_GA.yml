@@ -1,0 +1,4 @@
+- command: echo {{ GBL_GA }}
+- template: src={{ TPF_GA }} dest='/temp/TPF_GA'
+- copy: src={{ CPF_GA }} dest='/temp/CPF_GA'
+- command: echo {{ VAR_01 }}
